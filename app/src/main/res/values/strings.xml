@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Name of the app -->
+    <string name="app_name">mbesplug-reflex</string>
+
+    <!-- Strings for the main activity, Reflex -->
+    <string name="hello_world">Welcome to Reflex! Select the mode you wish to use:</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_reaction">Reaction Timer</string>
+    <string name="button_buzzer">Game Show Buzzers</string>
+    <string name="button_stats">View Stats</string>
+    <string name="title_activity_reaction_timer_instructions">ReactionTimerInstructionsActivity
+    </string>
+    <string name="title_activity_buzzer_count">BuzzerCountActivity</string>
+    <string name="title_activity_display_stats">DisplayStatsActivity</string>
+
+    <!--
+    Test strings to indicate transition between certain activities
+    <string name="test_reaction_instructions">Reaction Timer Instructions</string>
+    <string name="test_buzzer_count">Buzzer Count</string>
+    <string name="test_display_stats">Display Stats</string>
+    -->
+
+    <!-- Message to be displayed on the dialog in PreBuzzReactionBuzzerActivity -->
+    <string name="reaction_instructions">There will be a brief delay, followed by a prompt to buzz the buzzer, after which your reaction time to buzz the buzzer will be recorded.</string>
+
+    <!-- Message to be displayed in dialogs when a player buzzes first -->
+    <string name="p1_buzzed">Player 1 buzzed first!</string>
+    <string name="p2_buzzed">Player 2 buzzed first!</string>
+    <string name="p3_buzzed">Player 3 buzzed first!</string>
+    <string name="p4_buzzed">Player 4 buzzed first!</string>
+    <string name="title_activity_pre_buzz_reaction_buzzer">PreBuzzReactionBuzzerActivity</string>
+
+    <!-- OK button on dialog boxes, when necessary -->
+    <string name="OK">OK</string>
+
+    <!-- Labels to appear on corresponding player's button (buzzer) -->
+    <string name="p1">Player 1</string>
+    <string name="p2">Player 2</string>
+    <string name="p3">Player 3</string>
+    <string name="p4">Player 4</string>
+
+    <!-- Waiting string in PreBuzzReactionBuzzerActivity -->
+    <string name="wait_to_buzz">Wait...</string>
+
+    <!-- Permissible-to-buzz string in BuzzReactionBuzzerActivity -->
+    <string name="buzz">Buzz!</string>
+
+    <!-- Instructional string in PlayerCountActivity -->
+    <string name="player_count">Please select the number of players:</string>
+
+    <string name="title_activity_buzz_reaction_buzzer">BuzzReactionBuzzerActivity</string>
+    <string name="title_activity_player_count">PlayerCountActivity</string>
+    <string name="title_activity_player2">PlayerActivity2</string>
+    <string name="title_activity_player3">PlayerActivity3</string>
+    <string name="title_activity_player4">PlayerActivity4</string>
+
+</resources>
